@@ -1,2 +1,11 @@
 body {
-  background-color: #5a9394; }
+  background-color: #5a9394;
+  /* from bootstraps custom jumbotron.css file */
+  /* padding-top: 2rem; */ }
+
+.navbar li {
+  font-size: 1em; }
+
+.navbar li {
+  margin-top: 12px;
+  margin-right: 10px; }
