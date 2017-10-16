@@ -1,5 +1,19 @@
 @import "colors";
 
 body {
-	background-color: $blue;
+	background-color: $teal;
+	/* from bootstraps custom jumbotron.css file */
+	/* padding-top: 2rem; */
+}
+
+.navbar {
+
+	li {
+		font-size: 1em;
+	}
+
+	li {
+		margin-top: 12px;
+		margin-right: 10px;
+	}
 }
