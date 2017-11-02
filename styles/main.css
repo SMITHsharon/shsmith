@@ -1,11 +1,40 @@
+/*
+.jumbotron {
+	.navbar-brand {
+		.logo {
+			display: inline-block;
+			width: 50px;
+			margin-top: 0px;
+		}
+	}
+}
+*/
+.navbar {
+  background-color: #868e96; }
+  .navbar .navbar-brand .logo {
+    display: inline-block;
+    width: 50px;
+    margin-top: 0px; }
+  .navbar s
+li {
+    font-size: 1em; }
+  .navbar li {
+    margin-top: 0px;
+    margin-right: 12px; }
+
+#shSmith {
+  margin-top: 85px; }
+
+.projects {
+  border-top: solid #868e96 2px; }
+  .projects .projectImage {
+    max-width: 300px; }
+  .projects .projectDesc {
+    margin-top: 10px; }
+  .projects a:link {
+    color: #192e51; }
+
 body {
   background-color: #5a9394;
   /* from bootstraps custom jumbotron.css file */
   /* padding-top: 2rem; */ }
-
-.navbar li {
-  font-size: 1em; }
-
-.navbar li {
-  margin-top: 12px;
-  margin-right: 10px; }

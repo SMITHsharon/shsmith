@@ -12,7 +12,15 @@
     "popper.js": "^1.12.5",
     "ui-bootstrap": "^0.1.10"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.1",
+    "matchdep": "^1.0.1"
+  },
   "scripts": {
     "test": "tap test/*.js"
   },
