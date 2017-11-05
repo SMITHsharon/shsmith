@@ -1,4 +1,10 @@
 /*
+@import "link-mixins";
+
+a { @include links($darknavy, $burnred, blue, teal); 
+}
+*/
+/*
 .jumbotron {
 	.navbar-brand {
 		.logo {
@@ -23,16 +29,63 @@ li {
     margin-right: 12px; }
 
 #shSmith {
-  margin-top: 85px; }
+  margin-top: 85px;
+  color: #6b1405; }
 
 .projects {
-  border-top: solid #868e96 2px; }
+  border-top: solid #6b1405 2px;
+  /* Mixin
+@mixin links ($link, $visited, $hover, $active) {
+    & {
+        color: $link;
+        &:visited {
+            color: $visited;
+        }
+        &:hover {
+            color: $hover;
+        }
+        &:active, &:focus {
+            color: $active;
+        }
+    }
+}
+*/
+  /*
+@mixin linksColors-lvhaf($link, $visited, $hover, $active, $focus)
+a { @include links(orange, blue, yellow, teal); }
+*/
+  /*
+a { @include links(192e51, 6b1405, 868e96, teal); 
+}
+*/
+  /*
+	a:link {
+    	color: $darknavy;
+	}
+
+	a:visited {
+		color: $6b1405;
+	}
+
+	a:hovor {
+		color: $868e96;
+	}
+*/ }
   .projects .projectImage {
     max-width: 300px; }
   .projects .projectDesc {
     margin-top: 10px; }
-  .projects a:link {
+  .projects a {
     color: #192e51; }
+    .projects a:visited {
+      color: #6b1405; }
+    .projects a:hover {
+      color: blue; }
+    .projects a:active, .projects a:focus {
+      color: teal; }
+
+footer {
+  font-size: .75em; }
 
 body {
   background-color: #5a9394;

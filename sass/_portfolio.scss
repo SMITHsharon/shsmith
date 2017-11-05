@@ -1,0 +1,68 @@
+@import "colors";
+@import "link-mixins";
+
+#shSmith {
+	margin-top: 85px;
+	color: $burnred;
+}
+
+.projects {
+	border-top: solid $burnred 2px;
+
+	.projectImage {
+		max-width: 300px;
+	}
+
+	.projectDesc {
+		margin-top: 10px;
+	}
+
+/* Mixin
+@mixin links ($link, $visited, $hover, $active) {
+    & {
+        color: $link;
+        &:visited {
+            color: $visited;
+        }
+        &:hover {
+            color: $hover;
+        }
+        &:active, &:focus {
+            color: $active;
+        }
+    }
+}
+*/
+
+/*
+@mixin linksColors-lvhaf($link, $visited, $hover, $active, $focus)
+a { @include links(orange, blue, yellow, teal); }
+*/
+
+/*
+a { @include links(192e51, 6b1405, 868e96, teal); 
+}
+*/
+
+a { @include links($darknavy, $burnred, blue, teal); 
+}
+
+/*
+	a:link {
+    	color: $darknavy;
+	}
+
+	a:visited {
+		color: $6b1405;
+	}
+
+	a:hovor {
+		color: $868e96;
+	}
+*/
+}
+
+footer {
+	font-size: .75em;
+}
+

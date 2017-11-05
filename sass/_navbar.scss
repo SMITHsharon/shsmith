@@ -1,6 +1,13 @@
 @import "colors";
 
 /*
+@import "link-mixins";
+
+a { @include links($darknavy, $burnred, blue, teal); 
+}
+*/
+
+/*
 .jumbotron {
 	.navbar-brand {
 		.logo {

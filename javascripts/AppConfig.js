@@ -1,17 +1,17 @@
 app.config(function($routeProvider) {
   $routeProvider
-    .when('/home', {
-      templateUrl: 'partials/home.html',
-      controller: 'HomeCtrl'
+    .when('/portfolio', {
+      templateUrl: 'partials/portfolio.html',
+      controller: 'PortfolioCtrl'
     })
- //   .when('/smithApps', {
- //     templateUrl: 'partials/smithApps.html',
- //     controller: 'SmithAppsCtrl'
- //   })
     .when('/smithExp', {
       templateUrl: 'partials/smithExp.html',
       controller: 'SmithExpCtrl'
     })
+    .when('/smithSmarts', {
+      templateUrl: 'partials/smithSmarts.html',
+      controller: 'SmithSmartsCtrl'
+    })
 
-    .otherwise('/home'); // default catch
+    .otherwise('/portfolio'); // default catch
 });
