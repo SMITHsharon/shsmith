@@ -1,5 +1,15 @@
 app.controller("SmithExpCtrl", function($location, $scope) {
 
-console.log("in SmithExpCtrl.js");
+$scope.expHats = false;
+
+$scope.showHats = () => {
+		$scope.expHats = true;
+	};
+
+/*
+$scope.displayPortfolio = () => {
+	$location.url("/portfolio");
+};
+*/
 
 });

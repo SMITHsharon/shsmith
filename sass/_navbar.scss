@@ -24,7 +24,7 @@ a { @include links($darknavy, $burnred, blue, teal);
 
 
 .navbar {
-	background-color: $gray;
+	background-color: $navbar-banner;
 	.navbar-brand {
 		.logo {
 			display: inline-block;

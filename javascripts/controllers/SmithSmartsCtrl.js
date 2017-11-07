@@ -1,5 +1,9 @@
 app.controller("SmithSmartsCtrl", function($location, $scope) {
 
-console.log("in SmithSmartsCtrl.js");
+$scope.showNSSDesc = false;
+
+$scope.showAboutNSS = () => {
+		$scope.showNSSDesc = true;
+	};
 
 });

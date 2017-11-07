@@ -1,13 +1,13 @@
 @import "colors";
 @import "link-mixins";
 
-#shSmith {
+.shSmith {
 	margin-top: 85px;
-	color: $burnred;
+	color: $darkborder;
 }
 
 .projects {
-	border-top: solid $burnred 2px;
+	border-top: solid $darkborder 2px;
 
 	.projectImage {
 		max-width: 300px;
@@ -16,6 +16,7 @@
 	.projectDesc {
 		margin-top: 10px;
 	}
+}
 
 /* Mixin
 @mixin links ($link, $visited, $hover, $active) {
@@ -39,27 +40,7 @@
 a { @include links(orange, blue, yellow, teal); }
 */
 
-/*
-a { @include links(192e51, 6b1405, 868e96, teal); 
-}
-*/
-
-a { @include links($darknavy, $burnred, blue, teal); 
-}
-
-/*
-	a:link {
-    	color: $darknavy;
-	}
-
-	a:visited {
-		color: $6b1405;
-	}
-
-	a:hovor {
-		color: $868e96;
-	}
-*/
+a { @include links(teal, $ngClickColor, $plum, teal); 
 }
 
 footer {

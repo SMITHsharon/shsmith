@@ -1,0 +1,10 @@
+@import "colors";
+@import "link-mixins";
+
+a { @include links(teal, $ngClickColor, $plum, teal); 
+}
+
+.shSmith {
+	margin-top: 85px;
+	color: $darkborder;
+}
