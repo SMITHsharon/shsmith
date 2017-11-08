@@ -32,12 +32,19 @@ li {
   margin-top: 85px;
   color: #585A56; }
 
-.projects {
-  border-top: solid #585A56 2px; }
-  .projects .projectImage {
-    max-width: 300px; }
-  .projects .projectDesc {
-    margin-top: 10px; }
+img#profilePic {
+  display: block;
+  width: 250px;
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%; }
+
+.projects .projectImage {
+  max-width: 300px; }
+
+.projects .projectDesc {
+  margin-top: 10px; }
 
 /* Mixin
 @mixin links ($link, $visited, $hover, $active) {
