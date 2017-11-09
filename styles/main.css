@@ -20,13 +20,11 @@ a { @include links($darknavy, $burnred, blue, teal);
   .navbar .navbar-brand .logo {
     display: inline-block;
     width: 50px;
-    margin-top: 0px; }
-  .navbar s
-li {
-    font-size: 1em; }
+    margin-top: 0px;
+    border-radius: 50%; }
   .navbar li {
     margin-top: 0px;
-    margin-right: 12px; }
+    font-size: 1em; }
 
 .shSmith {
   margin-top: 85px;

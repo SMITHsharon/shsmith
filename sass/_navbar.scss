@@ -30,15 +30,12 @@ a { @include links($darknavy, $burnred, blue, teal);
 			display: inline-block;
 			width: 50px;
 			margin-top: 0px;
+    		border-radius: 50%;
 		}
-		}s
-
-	li {
-		font-size: 1em;
 	}
 
 	li {
 		margin-top: 0px;
-		margin-right: 12px;
+		font-size: 1em;
 	}
 }
