@@ -20,12 +20,28 @@ img#profilePic {
 
 
 	.projectImage {
-		max-width: 300px;
+		//max-width: 300px;
+        max-width: 100%;
 	}
 
 	.projectDesc {
 		margin-top: 10px;
 	}
+}
+
+#techImages {
+    .techImage {
+        height: 45px;
+        margin-right: 10px;
+        //text-align: right;
+    }
+
+    margin-bottom: 50px;
+      /*  
+    .javaScriptImage {
+        height: 50px;
+    }
+    */
 }
 
 /* Mixin

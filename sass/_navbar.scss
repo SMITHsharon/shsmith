@@ -1,28 +1,5 @@
 @import "colors";
 
-/*
-@import "link-mixins";
-
-a { @include links($darknavy, $burnred, blue, teal); 
-}
-*/
-
-/*
-.jumbotron {
-	.navbar-brand {
-		.logo {
-			display: inline-block;
-			width: 50px;
-			margin-top: 0px;
-		}
-	}
-}
-*/
-
-	
-	
-
-
 .navbar {
 	background-color: $navbar-banner;
 	.navbar-brand {
@@ -37,5 +14,23 @@ a { @include links($darknavy, $burnred, blue, teal);
 	li {
 		margin-top: 0px;
 		font-size: 1em;
+	}
+}
+
+footer {
+	max-width: 170px;
+
+	.externalBrandImage {
+		display: block;
+		margin-right: 500px;
+		width: 25px;
+		margin-left: 45px;
+		margin-bottom: 25px;
+	}
+
+	#copyright {
+		font-size: .5em;
+		margin-left: 15px;
+		//text-align: right;
 	}
 }

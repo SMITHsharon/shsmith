@@ -1,20 +1,3 @@
-/*
-@import "link-mixins";
-
-a { @include links($darknavy, $burnred, blue, teal); 
-}
-*/
-/*
-.jumbotron {
-	.navbar-brand {
-		.logo {
-			display: inline-block;
-			width: 50px;
-			margin-top: 0px;
-		}
-	}
-}
-*/
 .navbar {
   background-color: #81A3A7; }
   .navbar .navbar-brand .logo {
@@ -25,6 +8,18 @@ a { @include links($darknavy, $burnred, blue, teal);
   .navbar li {
     margin-top: 0px;
     font-size: 1em; }
+
+footer {
+  max-width: 170px; }
+  footer .externalBrandImage {
+    display: block;
+    margin-right: 500px;
+    width: 25px;
+    margin-left: 45px;
+    margin-bottom: 25px; }
+  footer #copyright {
+    font-size: .5em;
+    margin-left: 15px; }
 
 .shSmith {
   margin-top: 85px;
@@ -39,10 +34,21 @@ img#profilePic {
   border-radius: 50%; }
 
 .projects .projectImage {
-  max-width: 300px; }
+  max-width: 100%; }
 
 .projects .projectDesc {
   margin-top: 10px; }
+
+#techImages {
+  margin-bottom: 50px;
+  /*  
+    .javaScriptImage {
+        height: 50px;
+    }
+    */ }
+  #techImages .techImage {
+    height: 45px;
+    margin-right: 10px; }
 
 /* Mixin
 @mixin links ($link, $visited, $hover, $active) {

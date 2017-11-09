@@ -1,9 +1,14 @@
 app.controller("PortfolioCtrl", function($scope, $location) {
 
-$scope.skills = false;
+	$scope.CommonMeals = false;
+	$scope.BackEnd = false;
 
-$scope.showSkills = () => {
-		$scope.skills = true;
+	$scope.showCommonMeals = () => {
+		$scope.CommonMeals = true;
+	};
+
+	$scope.showBackEnd = () => {
+		$scope.BackEnd = true;
 	};
     
 

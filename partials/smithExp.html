@@ -3,7 +3,9 @@
   <p>I've worn many different <a href="" ng-click="showHats()">hats</a> through my professional career.
   <br />The common theme: problem-solving, teamwork, collaboration. </p>
 
-  <div ng-show="expHats">
+  <!-- toggles showHats -->
+  <span ng-hide="expHats"></span> 
+  <span ng-show="expHats">
     <ul>
       <li>Apprentice Software Developer, Nashville Software School</li>
       <li>Founding Member, Germantown Commons of Tennessee</li>
@@ -14,16 +16,24 @@
       <li>Summer Intern, Data Center, HCA Healthcare</li>
       <li>Administrative Assistant, HCA Healthcare</li>
     </ul>
-  </div> <!-- ng-show expHats -->
+  </span><!-- ng-show expHats -->
+  
 </div> <!-- container -->
     
+<!-- card border colors 
+  border-dark = black
+  border-primary = blue
+  border-secondary = black? dark grey?
+  border-danger = red
+  border-info = green
+-->
 
 <div class="container">
   <div class="card-deck">
     <div class="row">
 
       <div class="col-md-4 projects">
-        <div class="card border border-dark">
+        <div class="card border border-info">
 
           <div class="card-body">
             <h5 class="card-title"><strong>Apprentice Software Developer</strong>
@@ -81,11 +91,11 @@
 
 
       <div class="col-md-4 projects">
-        <div class="card border border-primary">
+        <div class="card border border-info">
 
           <div class="card-body">
             <h5 class="card-title"><strong>Founding Member</strong>
-              <br /><a href="http://www.germantowncohousing.com/" target="_blank">Germantown Commons of Tennessee</a>
+              <br /><a href="http://www.germantowncohousing.com/" target="_blank">Germantown Commons of&nbsp;Tennessee</a>
             </h5>
             <p>I am a founding member of the first successfully-built cohousing community in Tennessee. Cohousing communities are innovative and intentional communities that require out-of-the-box visioning, financing, and management. Acting as developer for the project, our LLC worked directly with our architect on the site design, with the bank on securing the $5,000,000 construction loan, and with our builder through the entire construction and close-out phase of the 25-condo and common property project.</p>
 
@@ -146,7 +156,7 @@
 
 
       <div class="col-md-4 projects">
-        <div class="card border border-secondary">
+        <div class="card border border-info">
 
           <div class="card-body">
             <h5 class="card-title"><strong>Administrative Assistant</strong>
@@ -209,7 +219,7 @@
 
 
       <div class="col-md-4 projects">
-        <div class="card border border-danger">
+        <div class="card border border-info">
           <div class="card-body">
 
             <h5 class="card-title"><strong>Mathematics Teacher</strong>
@@ -289,6 +299,7 @@
                         <br />NationsBank
                         <br />Bank of America
                         <br />Bright Horizons
+                        <br />... and more
                     </ul>
                   </div>
 
