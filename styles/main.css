@@ -40,6 +40,7 @@ img#profilePic {
   margin-top: 10px; }
 
 #techImages {
+  margin-top: 35px;
   margin-bottom: 50px;
   /*  
     .javaScriptImage {
@@ -86,3 +87,5 @@ body {
   background-color: #C2D3DA;
   /* from bootstraps custom jumbotron.css file */
   /* padding-top: 2rem; */ }
+  body .container {
+    margin-bottom: 25px; }
