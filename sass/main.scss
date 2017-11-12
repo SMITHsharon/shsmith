@@ -1,20 +1,13 @@
-@import 'bootstrap';
+//@import 'bootstrap';
 @import "colors";
+@import "navbar";
+@import "portfolio";
 
 body {
-	background-color: $teal;
+	background-color: $background;
+	.container {
+		margin-bottom: 25px;
+	}
 	/* from bootstraps custom jumbotron.css file */
 	/* padding-top: 2rem; */
-}
-
-.navbar {
-
-	li {
-		font-size: 1em;
-	}
-
-	li {
-		margin-top: 12px;
-		margin-right: 10px;
-	}
 }

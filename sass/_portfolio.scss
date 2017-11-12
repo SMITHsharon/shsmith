@@ -1,0 +1,77 @@
+@import "colors";
+@import "link-mixins";
+
+.shSmith {
+	margin-top: 85px;
+	color: $darkborder;
+}
+
+img#profilePic {
+    display: block;
+    width: 250px;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.projects {
+	//border-top: solid $darkborder 2px;
+
+
+	.projectImage {
+		//max-width: 300px;
+        max-width: 100%;
+	}
+
+	.projectDesc {
+		margin-top: 10px;
+	}
+}
+
+#techImages {
+    margin-top: 35px;
+    
+    .techImage {
+        height: 45px;
+        margin-right: 10px;
+        //text-align: right;
+    }
+
+    margin-bottom: 50px;
+      /*  
+    .javaScriptImage {
+        height: 50px;
+    }
+    */
+}
+
+/* Mixin
+@mixin links ($link, $visited, $hover, $active) {
+    & {
+        color: $link;
+        &:visited {
+            color: $visited;
+        }
+        &:hover {
+            color: $hover;
+        }
+        &:active, &:focus {
+            color: $active;
+        }
+    }
+}
+*/
+
+/*
+@mixin linksColors-lvhaf($link, $visited, $hover, $active, $focus)
+a { @include links(orange, blue, yellow, teal); }
+*/
+
+a { @include links(teal, $ngClickColor, $plum, teal); 
+}
+
+footer {
+	font-size: .75em;
+}
+
