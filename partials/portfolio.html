@@ -21,14 +21,15 @@
       </h3>
       <h5>NSS Front-End Capstone</h5>
       <img class="projectImage" src="/images/Common Meals App on Launch.png">
-      <p class="projectDesc">Front-end capstone project: designed for the residents of Germantown Commons to facilitate the scheduling of common meals. Users (residents) can schedule a meal, be assigned to a cook team when scheduling a meal, and sign-up to attend a meal.</p>
+      <p class="projectDesc">Front-end capstone project: designed for the&nbsp;residents of Germantown Commons to facilitate the scheduling of common meals. Users (residents) can schedule a meal, be&nbsp;assigned to a cook team when scheduling a&nbsp;meal, and sign-up to attend a meal.</p>
 
       <p><a href="" ng-click="showCommonMeals()">read about the tech++</a></p>
-      <div ng-show="CommonMeals">
+      <!-- toggles techCommonMeals -->
+      <span ng-hide="techCommonMeals"></span> 
+      <span ng-show="techCommonMeals">
         <p>The app was built using Angular and implements full CRUD. The pages are designed using Boostrap grids and styled using SASS. Technologies include HTML, CSS, SASS, JavaScript, ES6, Bootstrap, Angular, and Grunt.</p>
-      </div>
-
-    </div> <!-- projects col -->
+      </span> <!-- ng-show techCommonMeals -->
+    </div> <!-- CommonMeals col -->
 
     <div class="col-md-4 projects">
       <h3>NSS Back-End Capstone</h3>
@@ -36,42 +37,57 @@
       <p class="projectDesc">Back-end capstone project: tbd</p>
 
       <p><a href="" ng-click="showBackEnd()">read about the tech++</a></p>
-      <div ng-show="BackEnd">
+      <!-- toggles techBackEnd -->
+      <span ng-hide="techBackEnd"></span> 
+      <span ng-show="techBackEnd">
         <p>Requirements still undefined ...</p>
-      </div>
-    </div>
+      </span> <!-- ng-show techBackEnd -->
+    </div> <!-- BackEnd col -->
 
     <div class="col-md-4 projects">
-      <h3>Heading</h3>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-    </div>
+      <h3>
+          <a href="https://smithsharon.github.io/wysiwygJQuery/" target="_blank">WYSIWYG Page</a>
+      </h3>
+      <h5>jQuery, JavaScript, and CSS Exercise</h5>
+      <img class="projectImage" src="/images/deployedWYSIWYG.png">
+      <p class="projectDesc">Images for five famous people plus descriptive information for each are written dynamically to the screen. The user can dynamically edit a selected person's description by clicking on that person's card.</p>
 
-    <!-- tech images -->
-    
-    <div id="techImages">
-      <hr>
-      <img class="techImage" src="/images/JavaScript_Image.png">
-      <img class="techImage" src="/images/HTML5_Logo_512.png">
-      <img class="techImage" src="/images/CSS_Image.jpeg">
-      <img class="techImage" src="/images/jquery_Image.png">
-      <img class="techImage" src="/images/Angular_Image.png">
-      <img class="techImage" src="/images/Bootstrap_Image.jpeg">
-      <img class="techImage" src="/images/SASS_Image.jpg">
-      <img class="techImage" src="/images/Bower_Image.png">
-      <img class="techImage" src="/images/NPM_Image.png">
-      <img class="techImage" src="/images/Grunt_Image.jpeg">
-      <img class="techImage" src="/images/JSON_Image.jpeg">
-      <img class="techImage" src="/images/Firebase_Image.jpeg">
-      <img class="techImage" src="/images/VisualStudio_Image.png">
-      <img class="techImage" src="/images/cSharp_Image.png">
-      <img class="techImage" src="/images/mySQL_Image.png">
-      <img class="techImage" src="/images/SQL_Image.png">
-      <img class="techImage" src="/images/LINQ_Image.jpeg">
-      <img class="techImage" src="/images/ASPNETMVC_Image.jpeg">
-      <img class="techImage" src="/images/GitHub_Image.png">
-    </div>
+      <p><a href="" ng-click="showWYSIWYG()">read about the tech++</a></p>
+      <!-- toggles techWYSIWYG -->
+      <span ng-hide="techWYSIWYG"></span> 
+      <span ng-show="techWYSIWYG">
+          <p>This app was built using HTML, CSS, JavaScript, and jQuery.</p>
+          <p>Go <a href="https://smithsharon.github.io/wysiwyg/" target="_blank">here</a>, for the very same app built using only HTML, CSS, and&nbsp;JavaScript (i.e., sans jQuery).</p>
+      </span> <!-- ng-show techWYSIWYG -->
+    </div> <!-- WYSIWYG col -->
+  </div> <!-- row -->
 
+  <row>
+  </row> <!-- row -->
+
+
+  <!-- tech images -->
+  <div id="techImages">
+    <hr>
+    <img class="techImage" src="/images/JavaScript_Image.png">
+    <img class="techImage" src="/images/HTML5_Logo_512.png">
+    <img class="techImage" src="/images/CSS_Image.jpeg">
+    <img class="techImage" src="/images/jquery_Image.png">
+    <img class="techImage" src="/images/Angular_Image.png">
+    <img class="techImage" src="/images/Bootstrap_Image.jpeg">
+    <img class="techImage" src="/images/SASS_Image.jpg">
+    <img class="techImage" src="/images/Bower_Image.png">
+    <img class="techImage" src="/images/NPM_Image.png">
+    <img class="techImage" src="/images/Grunt_Image.jpeg">
+    <img class="techImage" src="/images/JSON_Image.jpeg">
+    <img class="techImage" src="/images/Firebase_Image.jpeg">
+    <img class="techImage" src="/images/VisualStudio_Image.png">
+    <img class="techImage" src="/images/cSharp_Image.png">
+    <img class="techImage" src="/images/mySQL_Image.png">
+    <img class="techImage" src="/images/SQL_Image.png">
+    <img class="techImage" src="/images/LINQ_Image.jpeg">
+    <img class="techImage" src="/images/ASPNETMVC_Image.jpeg">
+    <img class="techImage" src="/images/GitHub_Image.png">
   </div>
 
 </div> <!-- /container -->

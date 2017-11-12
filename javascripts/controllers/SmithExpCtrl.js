@@ -8,16 +8,4 @@ app.controller("SmithExpCtrl", function($location, $scope) {
 		$scope.expHats = $scope.expHats === false ? true: false;
 	};
 
-	/*
-	$scope.showMLK = () => {
-		$scope.MLKMission = true;
-	};
-	*/
-
-/*
-$scope.displayPortfolio = () => {
-	$location.url("/portfolio");
-};
-*/
-
 });
