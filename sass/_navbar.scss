@@ -1,7 +1,8 @@
 @import "colors";
 
 .navbar {
-	background-color: $navbar-banner;
+	//background-color: $navbar-banner;
+	background-color: transparent !important;
 	.navbar-brand {
 		.logo {
 			display: inline-block;

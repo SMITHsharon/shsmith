@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #81A3A7; }
+  background-color: transparent !important; }
   .navbar .navbar-brand .logo {
     display: inline-block;
     width: 50px;
