@@ -3,6 +3,7 @@ app.controller("PortfolioCtrl", function($scope, $location) {
 	$scope.techCommonMeals = false;
 	$scope.techBackEnd = false;
 	$scope.techWYSIWYG = false;
+	$scope.techThisSite = false;
 
 	$scope.showCommonMeals = () => {
 		$scope.techCommonMeals = $scope.techCommonMeals === false ? true: false;
@@ -14,6 +15,10 @@ app.controller("PortfolioCtrl", function($scope, $location) {
 
 	$scope.showWYSIWYG = () => {
 		$scope.techWYSIWYG = $scope.techWYSIWYG === false ? true: false;
+	};
+
+	$scope.showThisSite = () => {
+		$scope.techThisSite = $scope.techThisSite === false ? true: false;
 	};
     
 

@@ -23,7 +23,7 @@ footer {
 
 .shSmith {
   margin-top: 85px;
-  color: #585A56; }
+  color: #5a9394; }
 
 img#profilePic {
   display: block;
@@ -33,59 +33,84 @@ img#profilePic {
   margin-right: auto;
   border-radius: 50%; }
 
+.card {
+  border-top: 1px solid #5a9394;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #C2D3DA;
+  margin-top: 0px;
+  padding-top: 0px; }
+
 .projects .projectImage {
   max-width: 90%; }
 
 .projects .projectDesc {
   margin-top: 10px; }
 
+#siteTech {
+  margin-top: 50px; }
+
 #techImages {
-  margin-top: 35px;
-  margin-bottom: 50px;
-  /*  
-    .javaScriptImage {
-        height: 50px;
-    }
-    */ }
+  margin-top: 10px;
+  margin-bottom: 50px; }
   #techImages .techImage {
     height: 45px;
     margin-right: 8px; }
 
-/* Mixin
-@mixin links ($link, $visited, $hover, $active) {
-    & {
-        color: $link;
-        &:visited {
-            color: $visited;
-        }
-        &:hover {
-            color: $hover;
-        }
-        &:active, &:focus {
-            color: $active;
-        }
-    }
-}
-*/
 /*
 @mixin linksColors-lvhaf($link, $visited, $hover, $active, $focus)
-a { @include links(orange, blue, yellow, teal); }
 */
 a {
-  color: teal; }
+  color: #5a9394; }
   a:visited {
     color: #BE3B45; }
   a:hover {
     color: #5C3D46; }
   a:active, a:focus {
-    color: teal; }
+    color: #5a9394; }
 
 footer {
   font-size: .75em; }
 
+a {
+  color: #5a9394; }
+  a:visited {
+    color: #BE3B45; }
+  a:hover {
+    color: #5C3D46; }
+  a:active, a:focus {
+    color: #5a9394; }
+
+.shSmith {
+  margin-top: 85px;
+  color: #5a9394; }
+
+.card {
+  margin-top: 25px;
+  border-top: 1px solid #5a9394;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #C2D3DA; }
+
+.modal-body p, .modal-body li {
+  font-size: .9em; }
+
+a {
+  color: #5a9394; }
+  a:visited {
+    color: #BE3B45; }
+  a:hover {
+    color: #5C3D46; }
+  a:active, a:focus {
+    color: #5a9394; }
+
+.shSmith {
+  margin-top: 85px;
+  color: #5a9394; }
+
 body {
-  background-color: #C2D3DA;
-  /* from bootstraps custom jumbotron.css file */
-  /* padding-top: 2rem; */ }
+  background-color: #C2D3DA; }
   body .container {
     margin-bottom: 25px; }

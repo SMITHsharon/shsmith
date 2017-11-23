@@ -3,7 +3,7 @@
 
 .shSmith {
 	margin-top: 85px;
-	color: $darkborder;
+	color: $teal;
 }
 
 img#profilePic {
@@ -15,9 +15,20 @@ img#profilePic {
     border-radius: 50%;
 }
 
-.projects {
-	//border-top: solid $darkborder 2px;
+.card {
+    border-top: 1px solid $teal;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: $background;
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
+.projects {
+
+    .projectTitle {
+    }
 
 	.projectImage {
 		//max-width: 300px;
@@ -29,46 +40,26 @@ img#profilePic {
 	}
 }
 
+#siteTech {
+    margin-top: 50px;
+}
+
 #techImages {
-    margin-top: 35px;
+    margin-top: 10px;
     
     .techImage {
         height: 45px;
         margin-right: 8px;
-        //text-align: right;
     }
 
     margin-bottom: 50px;
-      /*  
-    .javaScriptImage {
-        height: 50px;
-    }
-    */
 }
-
-/* Mixin
-@mixin links ($link, $visited, $hover, $active) {
-    & {
-        color: $link;
-        &:visited {
-            color: $visited;
-        }
-        &:hover {
-            color: $hover;
-        }
-        &:active, &:focus {
-            color: $active;
-        }
-    }
-}
-*/
 
 /*
 @mixin linksColors-lvhaf($link, $visited, $hover, $active, $focus)
-a { @include links(orange, blue, yellow, teal); }
 */
 
-a { @include links(teal, $ngClickColor, $plum, teal); 
+a { @include links($teal, $ngClickColor, $plum, $teal); 
 }
 
 footer {
