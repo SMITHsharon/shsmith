@@ -17,8 +17,8 @@ app.controller("PortfolioCtrl", function($scope, $location) {
 		$scope.techWYSIWYG = $scope.techWYSIWYG === false ? true: false;
 	};
 
-	$scope.showThisSite = () => {
-		$scope.techThisSite = $scope.techThisSite === false ? true: false;
+	$scope.showAddressBook = () => {
+		$scope.techAddressBook = $scope.techAddressBook === false ? true: false;
 	};
     
 

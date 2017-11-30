@@ -1,13 +1,15 @@
 @import "colors";
 
-.navbar {
+nav {
 	//background-color: $navbar-banner;
 	background-color: transparent !important;
-	.navbar-brand {
+	//.navbar-brand {
+	li {
 		.logo {
 			display: inline-block;
 			width: 50px;
 			margin-top: 0px;
+			margin-left: 25px;
     		border-radius: 50%;
 		}
 	}

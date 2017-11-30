@@ -1,11 +1,12 @@
-.navbar {
+nav {
   background-color: transparent !important; }
-  .navbar .navbar-brand .logo {
+  nav li .logo {
     display: inline-block;
     width: 50px;
     margin-top: 0px;
+    margin-left: 25px;
     border-radius: 50%; }
-  .navbar li {
+  nav li {
     margin-top: 0px;
     font-size: 1em; }
 
