@@ -54,11 +54,13 @@ img#profilePic {
   margin-top: 50px; }
 
 #techImages {
+  background-color: white;
   margin-top: 10px;
   margin-bottom: 50px; }
   #techImages .techImage {
-    height: 45px;
-    margin-right: 8px; }
+    height: 40px;
+    margin-left: 12px;
+    margin-bottom: 12px; }
 
 /*
 @mixin linksColors-lvhaf($link, $visited, $hover, $active, $focus)
