@@ -26,13 +26,21 @@ footer {
   margin-top: 85px;
   color: #5a9394; }
 
+#tryThisForProfile {
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid #5a9394;
+  background-image: url("/images/2017.11.11 EC5 cropped.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 img#profilePic {
   display: block;
   width: 225px;
   margin-top: 125px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
   border: 1px solid #5a9394; }
 
 .card {
