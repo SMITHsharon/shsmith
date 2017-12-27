@@ -3,25 +3,58 @@
 
 .shSmith {
 	margin-top: 85px;
-	color: $darkborder;
+	color: $teal;
+}
+#shSmithPortfolio {
+    color: $white;
 }
 
+#tryThisForProfile {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100%;
+    justify-content: center;
+    border: 1px solid $teal;
+    background-image: url("/images/2017.11.11 EC5 cropped.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+
+/*
 img#profilePic {
     display: block;
-    width: 250px;
+    //width: 225px;
+    //width: 150px;
     margin-top: 125px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
+    //border-radius: 50%;
+    border: 1px solid $teal;
+}
+*/
+
+.card {
+    border-top: 1px solid $teal;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: $background;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .projects {
-	//border-top: solid $darkborder 2px;
 
+    .projectTitle {
+    }
 
 	.projectImage {
 		//max-width: 300px;
-        max-width: 100%;
+        max-width: 90%;
 	}
 
 	.projectDesc {
@@ -29,46 +62,29 @@ img#profilePic {
 	}
 }
 
+#siteTech {
+    margin-top: 50px;
+}
+
 #techImages {
-    margin-top: 35px;
+    //background-color: $white;
+    margin-top: 10px;
     
     .techImage {
-        height: 45px;
-        margin-right: 10px;
-        //text-align: right;
+        height: 40px;
+        //margin-right: 8px;
+        margin-left: 12px;
+        margin-bottom: 12px;
     }
 
     margin-bottom: 50px;
-      /*  
-    .javaScriptImage {
-        height: 50px;
-    }
-    */
 }
-
-/* Mixin
-@mixin links ($link, $visited, $hover, $active) {
-    & {
-        color: $link;
-        &:visited {
-            color: $visited;
-        }
-        &:hover {
-            color: $hover;
-        }
-        &:active, &:focus {
-            color: $active;
-        }
-    }
-}
-*/
 
 /*
 @mixin linksColors-lvhaf($link, $visited, $hover, $active, $focus)
-a { @include links(orange, blue, yellow, teal); }
 */
 
-a { @include links(teal, $ngClickColor, $plum, teal); 
+a { @include links($teal, $ngClickColor, $plum, $teal); 
 }
 
 footer {

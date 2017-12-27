@@ -1,11 +1,12 @@
-.navbar {
+nav {
   background-color: transparent !important; }
-  .navbar .navbar-brand .logo {
+  nav li .logo {
     display: inline-block;
     width: 50px;
     margin-top: 0px;
+    margin-left: 25px;
     border-radius: 50%; }
-  .navbar li {
+  nav li {
     margin-top: 0px;
     font-size: 1em; }
 
@@ -23,69 +24,116 @@ footer {
 
 .shSmith {
   margin-top: 85px;
-  color: #585A56; }
+  color: #5a9394; }
 
-img#profilePic {
-  display: block;
-  width: 250px;
-  margin-top: 125px;
+#shSmithPortfolio {
+  color: white; }
+
+#tryThisForProfile {
+  margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%; }
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 100%;
+  justify-content: center;
+  border: 1px solid #5a9394;
+  background-image: url("/images/2017.11.11 EC5 cropped.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+/*
+img#profilePic {
+    display: block;
+    //width: 225px;
+    //width: 150px;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    //border-radius: 50%;
+    border: 1px solid $teal;
+}
+*/
+.card {
+  border-top: 1px solid #5a9394;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #C2D3DA;
+  margin-top: 0px;
+  padding-top: 0px; }
 
 .projects .projectImage {
-  max-width: 100%; }
+  max-width: 90%; }
 
 .projects .projectDesc {
   margin-top: 10px; }
 
-#techImages {
-  margin-top: 35px;
-  margin-bottom: 50px;
-  /*  
-    .javaScriptImage {
-        height: 50px;
-    }
-    */ }
-  #techImages .techImage {
-    height: 45px;
-    margin-right: 10px; }
+#siteTech {
+  margin-top: 50px; }
 
-/* Mixin
-@mixin links ($link, $visited, $hover, $active) {
-    & {
-        color: $link;
-        &:visited {
-            color: $visited;
-        }
-        &:hover {
-            color: $hover;
-        }
-        &:active, &:focus {
-            color: $active;
-        }
-    }
-}
-*/
+#techImages {
+  margin-top: 10px;
+  margin-bottom: 50px; }
+  #techImages .techImage {
+    height: 40px;
+    margin-left: 12px;
+    margin-bottom: 12px; }
+
 /*
 @mixin linksColors-lvhaf($link, $visited, $hover, $active, $focus)
-a { @include links(orange, blue, yellow, teal); }
 */
 a {
-  color: teal; }
+  color: #5a9394; }
   a:visited {
     color: #BE3B45; }
   a:hover {
     color: #5C3D46; }
   a:active, a:focus {
-    color: teal; }
+    color: #5a9394; }
 
 footer {
   font-size: .75em; }
 
+a {
+  color: #5a9394; }
+  a:visited {
+    color: #BE3B45; }
+  a:hover {
+    color: #5C3D46; }
+  a:active, a:focus {
+    color: #5a9394; }
+
+.shSmith {
+  margin-top: 85px;
+  color: #5a9394; }
+
+.card {
+  margin-top: 25px;
+  border-top: 1px solid #5a9394;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #C2D3DA; }
+
+.modal-body p, .modal-body li {
+  font-size: .9em; }
+
+a {
+  color: #5a9394; }
+  a:visited {
+    color: #BE3B45; }
+  a:hover {
+    color: #5C3D46; }
+  a:active, a:focus {
+    color: #5a9394; }
+
+.shSmith {
+  margin-top: 85px;
+  color: #5a9394; }
+
 body {
-  background-color: #C2D3DA;
-  /* from bootstraps custom jumbotron.css file */
-  /* padding-top: 2rem; */ }
+  background-color: #C2D3DA; }
   body .container {
     margin-bottom: 25px; }

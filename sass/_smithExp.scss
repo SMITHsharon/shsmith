@@ -1,20 +1,27 @@
 @import "colors";
 @import "link-mixins";
 
-a { @include links(teal, $ngClickColor, $plum, teal); 
+a { @include links($teal, $ngClickColor, $plum, $teal); 
 }
 
 .shSmith {
 	margin-top: 85px;
-	color: $darkborder;
+	color: $teal;
 }
 
 .card {
-	margin-top: 75px;
+	margin-top: 25px;
+    border-top: 1px solid $teal;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: $background;
+    //margin-top: 0px;
+    //padding-top: 0px;
 }
 
 .modal-body {
-	li {
-		font-size: .5em;
+	p, li {
+		font-size: .9em;
 	}
 }

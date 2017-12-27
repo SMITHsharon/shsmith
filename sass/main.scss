@@ -2,12 +2,12 @@
 @import "colors";
 @import "navbar";
 @import "portfolio";
+@import "smithExp";
+@import "smithSmarts";
 
 body {
 	background-color: $background;
 	.container {
 		margin-bottom: 25px;
 	}
-	/* from bootstraps custom jumbotron.css file */
-	/* padding-top: 2rem; */
 }

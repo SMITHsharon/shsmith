@@ -1,14 +1,29 @@
 app.controller("PortfolioCtrl", function($scope, $location) {
 
-	$scope.CommonMeals = false;
-	$scope.BackEnd = false;
+	$scope.techCommonMeals = false;
+	$scope.techBackEnd = false;
+	$scope.techWYSIWYG = false;
+	$scope.techAddressBook = false;
+	$scope.techThisSite = false;
 
 	$scope.showCommonMeals = () => {
-		$scope.CommonMeals = true;
+		$scope.techCommonMeals = $scope.techCommonMeals === false ? true: false;
 	};
 
 	$scope.showBackEnd = () => {
-		$scope.BackEnd = true;
+		$scope.techBackEnd = $scope.techBackEnd === false ? true: false;
+	};
+
+	$scope.showWYSIWYG = () => {
+		$scope.techWYSIWYG = $scope.techWYSIWYG === false ? true: false;
+	};
+
+	$scope.showAddressBook = () => {
+		$scope.techAddressBook = $scope.techAddressBook === false ? true: false;
+	};
+
+	$scope.showThisSite = () => {
+		$scope.techThisSite = $scope.techThisSite === false ? true: false;
 	};
     
 
