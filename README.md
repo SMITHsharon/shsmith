@@ -12,7 +12,7 @@
 - `Grunt`
 
 ### To Run The Deployed App
-`https://common-meals-app.firebaseapp.com`
+` `
 
 
 ### Contributor
