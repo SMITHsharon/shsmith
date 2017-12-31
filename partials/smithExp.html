@@ -1,9 +1,17 @@
-<div class="container">
+<div class="container expContainer">
   <h2 class="shSmith">shSmith Experience</h2>
-  <p>I've worn many different <a href="" ng-click="showHats()">hats</a> through my professional career.
-  <br />The common theme: problem-solving, teamwork, collaboration. </p>
+  
+  <div>
+    I've worn many different hats through my career.
+    <p>The common theme: problem-solving, teamwork, collaboration. </p>
+  </div>
+  <!--
+  // LINK IN TOGGLE NOT RECOGNIZED?
+  <div>
+    I've worn many different <a href="" ng-click="showHats()">hats</a> through my career.
+    <p>The common theme: problem-solving, teamwork, collaboration. </p>
+  </div>
 
-  <!-- toggles showHats -->
   <span ng-hide="expHats"></span> 
   <span ng-show="expHats">
     <ul>
@@ -16,10 +24,11 @@
       <li>Summer Intern, Data Center, HCA Healthcare</li>
       <li>Administrative Assistant, HCA Healthcare</li>
     </ul>
-  </span> <!-- ng-show expHats -->
+  </span> ng-show expHats 
+</div>
+-->
   
-</div> <!-- container -->
-
+ <!-- container -->
 <div class="container">
   <div class="card-deck">
     <div class="row">
@@ -199,7 +208,7 @@
           
           </div> <!-- Tech Writer card-body -->
         </div> <!--card -->
-      </div> <!-- col -->\
+      </div> <!-- col -->
 
     </div> <!-- row -->
   </div> <!-- card-deck -->
@@ -310,6 +319,55 @@
         </div> <!--card -->
       </div> <!-- col -->
 
+
+      <div class="col-md-4 projects">
+        <!-- <div class="card border border-info"> -->
+        <div class="card">
+          <div class="card-body">
+<!--
+            <h5 class="card-title"><strong>Mathematics Teacher</strong>
+            <br />MNPS / Martin Luther King Academic Magnet High School</h5>
+            <p>MLK's mission is to provide a rigorous and respectful academic environment emphasizing science and mathematics that prepares all students for successful post-secondary study and a productive, purposeful life. Founded in 1986, MLK is the only school within MNPS that houses grades 7 through 12. In 2014, MLK was recognized by the U.S. Department of Education as a Blue Ribbon School, a distinction for high academic achievement that was awarded to just 340 schools across the country.</p>
+-->
+
+            <!-- skills MODAL -->
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#shHats">my diff hats++</button>
+
+            <div class="modal fade" id="shHats" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">my diff hats++</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <div class="modal-body">
+                    <ul>
+                      <li>Apprentice Software Developer, Nashville Software School</li>
+                      <li>Founding Member and Developer, Germantown Commons of&nbsp;Tennessee</li>
+                      <li>Free-Lance Technical Writer</li>
+                      <li>High School Mathematics Teacher, Martin Luther King Academic Magnet High School</li>
+                      <li>Adjunct Mathematics Instructor, Nashville State Community College</li>
+                      <li>Administrative Assistant, Nashville Organized for Action and Hope (NOAH)</li>
+                      <li>Summer Intern, Data Center, HCA Healthcare</li>
+                      <li>Administrative Assistant, HCA Healthcare</li>
+                    </ul>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+
+                </div> <!-- modal-content -->
+              </div> <!-- modal-dialog -->
+            </div> <!-- modal fade -->
+          
+          </div> <!-- MLK card-body -->
+        </div> <!--card -->
+      </div> <!-- col -->
 
     </div> <!-- row -->
   </div> <!-- card-deck -->
