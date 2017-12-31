@@ -1,3 +1,6 @@
+.navContainer {
+  z-index: -1; }
+
 nav {
   background-color: transparent !important; }
   nav li .logo {
@@ -8,7 +11,8 @@ nav {
     border-radius: 50%; }
   nav li {
     margin-top: 0px;
-    font-size: 1em; }
+    font-size: 1em;
+    max-width: 100px; }
 
 footer {
   max-width: 170px; }

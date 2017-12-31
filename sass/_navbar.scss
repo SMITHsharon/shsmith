@@ -1,5 +1,11 @@
 @import "colors";
 
+
+
+.navContainer {
+    z-index: -1;
+}
+
 nav {
 	//background-color: $navbar-banner;
 	background-color: transparent !important;
@@ -17,6 +23,7 @@ nav {
 	li {
 		margin-top: 0px;
 		font-size: 1em;
+		max-width: 100px;
 	}
 }
 

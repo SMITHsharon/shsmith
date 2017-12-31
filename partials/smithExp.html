@@ -1,9 +1,17 @@
-<div class="container">
+<div class="container expContainer">
   <h2 class="shSmith">shSmith Experience</h2>
-  <p>I've worn many different <a href="" ng-click="showHats()">hats</a> through my professional career.
-  <br />The common theme: problem-solving, teamwork, collaboration. </p>
+  
+  <div>
+    I've worn many different hats through my career.
+    <p>The common theme: problem-solving, teamwork, collaboration. </p>
+  </div>
+  <!--
+  // LINK IN TOGGLE NOT RECOGNIZED?
+  <div>
+    I've worn many different <a href="" ng-click="showHats()">hats</a> through my career.
+    <p>The common theme: problem-solving, teamwork, collaboration. </p>
+  </div>
 
-  <!-- toggles showHats -->
   <span ng-hide="expHats"></span> 
   <span ng-show="expHats">
     <ul>
@@ -16,18 +24,11 @@
       <li>Summer Intern, Data Center, HCA Healthcare</li>
       <li>Administrative Assistant, HCA Healthcare</li>
     </ul>
-  </span> <!-- ng-show expHats -->
-  
-</div> <!-- container -->
-    
-<!-- card border colors 
-  border-dark = black
-  border-primary = blue
-  border-secondary = black? dark grey?
-  border-danger = red
-  border-info = green
+  </span> ng-show expHats 
+</div>
 -->
-
+  
+ <!-- container -->
 <div class="container">
   <div class="card-deck">
     <div class="row">
@@ -59,12 +60,12 @@
                   <div class="modal-body">
                     <ul>
                       <li>Applied OOP fundamentals and SOLID principles through daily group and individual projects</li>
-                      <li>Created single page applications in JavaScript using the Angular framework as well as HTML5, CSS/SASS, jQuery, and Bootstrap</li>
+                      <li>Created single page applications in JavaScript using the AngularJS framework as well as HTML5, CSS/SASS, jQuery, and Bootstrap</li>
                       <li>Utilized JS tools such as Bower, NPM, and Grunt to manage front-end projects</li>
                       <li>Managed source code and version control with Git/GitHub</li>
                       <li>Project management/tracking with Trello and GitHub Projects & Issue Tracking</li>
                       <li>JavaScript fundamentals leveraging DRY, modular, readable code and reusable components</li>
-                      <li>Styled applications with CSS Framework Bootstrap, and wrote custom styles with SASS</li>
+                      <li>Styled applications with CSS Frameworks Bootstrap and Bulma, and wrote custom styles with SASS</li>
                       <li>Deployed applications through Firebase and GitHub Pages</li>
                       <li>Leveraged VMware for virtualizing a Windows environment on Mac to utilize Visual Studio 2017 IDE</li>
                       <li>Designed and modeled complex data structures using ERDs</li>
@@ -99,7 +100,7 @@
             <h5 class="card-title"><strong>Founding Member</strong>
               <br /><a href="http://www.germantowncohousing.com/" target="_blank">Germantown Commons of&nbsp;Tennessee</a>
             </h5>
-            <p>I am a founding member of the first successfully-built cohousing community in Tennessee. Cohousing communities are innovative and intentional communities that require out-of-the-box visioning, financing, and management. Acting as developer for the project, our LLC worked directly with our architect on the site design, with the bank on securing the $5,000,000 construction loan, and with our builder through the entire construction and close-out phase of the 25-condo and common property project.</p>
+            <p>I am a founding member of the first successfully-built cohousing community in Tennessee. Cohousing communities are innovative and intentional communities that require out-of-the-box visioning, financing, and management. Acting as developer for the project, our LLC worked directly with the architect on the site design, with the bank on securing the $5,000,000 construction loan, and with our builder through the entire construction and close-out phase of the 25-condo and common property project.</p>
 
             <!-- skills MODAL -->
             <button type="button" class="btn btn-link" data-toggle="modal" data-target="#gctLong">read about my skills++</button>
@@ -141,7 +142,7 @@
                       <li>Collaborating on revising our Bylaws</li>
                     </ul>
 
-                    <p>I currently serve as Treasurer of Germantown Commons HOA and on the Managing Board of the LLC. </p>
+                    <p>Served as Treasurer of Germantown Commons HOA, 2015, 2016, and 2017; and currently serve on the Managing Board of the LLC. </p>
                   </div>
 
                   <div class="modal-footer">
@@ -155,9 +156,6 @@
           </div> <!-- GCT card-body -->
         </div> <!--card -->
       </div> <!-- col -->
-
-
-
 
 
       <div class="col-md-4 projects">
@@ -184,7 +182,7 @@
 
                   <div class="modal-body">
                     <ul>
-                      <li>Performed subject matter expert interviews to obtain source material</li>
+                      <li>Performed subject-matter-expert interviews to obtain source material</li>
                       <li>Obtained and incorporated client feedback in revision cycles</li>
                       <li>Worked as proofreader and editor on team projects</li>
                       <li>Completed projects for:
@@ -211,8 +209,6 @@
           </div> <!-- Tech Writer card-body -->
         </div> <!--card -->
       </div> <!-- col -->
-
-
 
     </div> <!-- row -->
   </div> <!-- card-deck -->
@@ -258,7 +254,7 @@
                     </ul>
                     <p>My NationBuilder work includes:</p>
                     <ul>
-                      <li>Working on the website within the NationBuilder platform, to improve the structure, styling and formatting</li>
+                      <li>Working on the website within the NationBuilder platform, to&nbsp;improve the structure, styling and formatting</li>
                       <li>Maintaining and cleaning database content</li>
                       <li>Drafting and sending targeted eblasts</li>
                     </ul>
@@ -323,6 +319,55 @@
         </div> <!--card -->
       </div> <!-- col -->
 
+
+      <div class="col-md-4 projects">
+        <!-- <div class="card border border-info"> -->
+        <div class="card">
+          <div class="card-body">
+<!--
+            <h5 class="card-title"><strong>Mathematics Teacher</strong>
+            <br />MNPS / Martin Luther King Academic Magnet High School</h5>
+            <p>MLK's mission is to provide a rigorous and respectful academic environment emphasizing science and mathematics that prepares all students for successful post-secondary study and a productive, purposeful life. Founded in 1986, MLK is the only school within MNPS that houses grades 7 through 12. In 2014, MLK was recognized by the U.S. Department of Education as a Blue Ribbon School, a distinction for high academic achievement that was awarded to just 340 schools across the country.</p>
+-->
+
+            <!-- skills MODAL -->
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#shHats">my diff hats++</button>
+
+            <div class="modal fade" id="shHats" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">my diff hats++</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <div class="modal-body">
+                    <ul>
+                      <li>Apprentice Software Developer, Nashville Software School</li>
+                      <li>Founding Member and Developer, Germantown Commons of&nbsp;Tennessee</li>
+                      <li>Free-Lance Technical Writer</li>
+                      <li>High School Mathematics Teacher, Martin Luther King Academic Magnet High School</li>
+                      <li>Adjunct Mathematics Instructor, Nashville State Community College</li>
+                      <li>Administrative Assistant, Nashville Organized for Action and Hope (NOAH)</li>
+                      <li>Summer Intern, Data Center, HCA Healthcare</li>
+                      <li>Administrative Assistant, HCA Healthcare</li>
+                    </ul>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+
+                </div> <!-- modal-content -->
+              </div> <!-- modal-dialog -->
+            </div> <!-- modal fade -->
+          
+          </div> <!-- MLK card-body -->
+        </div> <!--card -->
+      </div> <!-- col -->
 
     </div> <!-- row -->
   </div> <!-- card-deck -->
