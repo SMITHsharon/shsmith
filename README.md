@@ -12,7 +12,7 @@
 - `Grunt`
 
 ### To Run The Deployed App
-`https://smithsharon.github.io/shsmith/`
+``
 
 
 ### Contributor
