@@ -33,7 +33,7 @@ footer {
 #shSmithPortfolio {
   color: white; }
 
-#tryThisForProfile {
+#profilePageImage {
   margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
@@ -47,18 +47,6 @@ footer {
   background-position: center;
   background-size: cover; }
 
-/*
-img#profilePic {
-    display: block;
-    //width: 225px;
-    //width: 150px;
-    margin-top: 125px;
-    margin-left: auto;
-    margin-right: auto;
-    //border-radius: 50%;
-    border: 1px solid $teal;
-}
-*/
 .card {
   border-top: 1px solid #5a9394;
   border-left: none;
@@ -82,7 +70,7 @@ img#profilePic {
   margin-bottom: 50px; }
   #techImages .techImage {
     height: 40px;
-    margin-left: 12px;
+    margin-left: 10px;
     margin-bottom: 12px; }
 
 /*
