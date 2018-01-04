@@ -2,6 +2,7 @@ app.controller("PortfolioCtrl", function($scope, $location) {
 
 	$scope.techCommonMeals = false;
 	$scope.techBackEnd = false;
+	$scope.techWeather = false;
 	$scope.techWYSIWYG = false;
 	$scope.techAddressBook = false;
 	$scope.techThisSite = false;
@@ -12,6 +13,10 @@ app.controller("PortfolioCtrl", function($scope, $location) {
 
 	$scope.showBackEnd = () => {
 		$scope.techBackEnd = $scope.techBackEnd === false ? true: false;
+	};
+
+	$scope.showWeather = () => {
+		$scope.techWeather = $scope.techWeather === false ? true: false;
 	};
 
 	$scope.showWYSIWYG = () => {
