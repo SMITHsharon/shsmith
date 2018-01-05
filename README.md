@@ -1,7 +1,7 @@
 # Sharon Smith 
 
 #### 
-![shSmith Site on Launch](https://raw.githubusercontent.com/SMITHsharon/shsmith/master/images/portfolio%20screen%20shot.png)
+![shSmith Site on Launch](https://raw.githubusercontent.com/SMITHsharon/shsmith/deploy/portfolioImage.png)
 
 ### Technologies Used
 - `HTML`
