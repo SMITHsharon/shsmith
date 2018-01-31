@@ -11,7 +11,7 @@
 - `Angular`
 - `Grunt`
 
-### To Run The Deployed App
+### To Run The Deployed Site
 `https://shsmith-36f81.firebaseapp.com`
 
 
