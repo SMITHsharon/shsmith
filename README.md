@@ -12,7 +12,7 @@
 - `Grunt`
 
 ### To Run The Deployed App
-`https://shsmith-36f81.firebaseapp.com
+`https://shsmith-36f81.firebaseapp.com`
 
 
 ### Contributor
